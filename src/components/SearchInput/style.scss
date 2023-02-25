@@ -1,0 +1,19 @@
+.search-input-container {
+  min-width: auto;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  .search-input {
+    min-width: auto;
+    max-width: 300px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .search-button {
+    border: none;
+    border-radius: 8px;
+  }
+}

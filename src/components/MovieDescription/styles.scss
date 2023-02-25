@@ -1,0 +1,36 @@
+.movie-info-description {
+  h2,
+  p {
+    color: #222;
+    font-weight: 400;
+    margin: 1.5rem 0;
+  }
+
+  p {
+    color: #333;
+  }
+
+  @media screen and (max-width: 800px) {
+    text-align: center;
+  }
+}
+
+.movie-info-details {
+  display: flex;
+  align-items: center;
+  margin: 0.75rem 0;
+
+  strong {
+    color: #141414;
+    margin-right: 0.3125rem;
+  }
+
+  p {
+    color: #333;
+    font-weight: 400;
+  }
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+}

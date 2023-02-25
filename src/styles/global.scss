@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, #833ab4, #FD1D1D, #FCB045);
+}
+
+.m-top-2 {
+  margin-top: 2rem;
+}
+
+.row-flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

@@ -1,0 +1,10 @@
+.movie-banner{
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+
+  @media screen and (max-width: 800px) {
+    width: auto;
+  }
+}

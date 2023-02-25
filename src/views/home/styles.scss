@@ -1,0 +1,55 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0.5rem 0.5rem 0.5rem;
+  gap: 0.5rem;
+
+  .movie-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+    .movie-info-container {
+      width: auto;
+      max-width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .movie-info-favorite-button {
+      width: 11.25rem;
+    }
+  }
+
+  .intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    h2,
+    p {
+      font-weight: 400;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home-container {
+    .movie-container {
+      flex-direction: column-reverse;
+      align-items: center;
+
+      .movie-info-favorite-button {
+        width: 100%;
+        display: flex;
+      }
+    }
+  }
+}
