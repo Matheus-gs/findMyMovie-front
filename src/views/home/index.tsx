@@ -14,7 +14,7 @@ export function Home() {
   const currentMovieSearched: MovieReducer = movieList[movieList.length - 1];
 
   function showInProgressMessage() {
-    toast.warning("We are working in this feature, please try again in a few weeks :)");
+    toast.warning("We are working on this feature, please try again in a few weeks :)");
   }
 
   return (
