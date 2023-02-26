@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const httpService = axios.create({
-  baseURL: "https://find-my-movie-back.vercel.app/",
+  baseURL: import.meta.env.VITE_API_BASE_URL,
   headers: {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "GET,POST,PUT,DELETE,OPTIONS",
